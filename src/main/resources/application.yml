@@ -5,10 +5,10 @@ spring:
 server:
   port: 443
   ssl:
-    key-store: classpath:keystore.p12
-    key-store-password: 123456
+    key-store: classpath:dlt.p12
+    key-store-password: ipcc@95598
     keyStoreType: PKCS12
-    keyAlias: tomcat
+    keyAlias: root
 #日志
 logging:
   config: classpath:logback-spring.xml

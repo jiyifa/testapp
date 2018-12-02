@@ -36,5 +36,11 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <!-- ******SpringBoot end****** -->
+
+        <!-- lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
     </dependencies>
 </project>
